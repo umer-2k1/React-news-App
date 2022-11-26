@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;   /* 1rem = 10px */ 
+    
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    width: 100vw;
+    height: 8vh;
+    background-color: rgb(2, 2, 87);
+    background-color: #283593;
+    background-color: #1B1E23;
+    color: white;
+    font-size: 1.8rem;
+    align-content: center;
+    position: fixed; /* Set the navbar to fixed position */
+    top: 0; /* Position the navbar at the top of the page */
+    width: 100%; 
+    /* margin-bottom: 5rem; */
+ 
+}
+
+
+.navbar a{
+    justify-content: space-around;
+    color: white;
+    text-decoration: none;
+    margin: 0 1.5rem; 
+    
+}
+
+#my {
+    margin-right: 2rem;
+}
+.navbar a:hover, 
+.navbar a :visited
+{
+   color: #242121;
+   color: rgb(0, 255, 106);
+   color: orangered;
+   transition: all 0.3s;
+   font-weight: bolder;
+}
+#search-bar{
+    border: none;
+    /* font-size: 3rem; */
+    padding: 1rem;
+    /* border-radius: 5rem; */
+}
+#search-bar :hover{
+    border: 0.4rem solid blue;
+}
+#search-btn{
+    font-size: 2rem;
+    width: 5rem;
+    padding: 0.7rem;
+    color: white;
+    background-color: #E67A00;
+    cursor: pointer;
+}
